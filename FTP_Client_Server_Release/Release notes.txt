@@ -1,0 +1,12 @@
+Scope of work done
+Console client-­server application for receiving a file. User has to choose a side (client or server)
+ when program starts. Server only serves requests from clients. Clients can browse server directories
+and choose files they want to download. They also have to choose directory, where to save that file.
+All cross-platform functionality implemented using platform dependent API. 
+- Implemented functionality
+1) Established TCP/IP connection
+2) Ability to browse directories on a remote host ("ls", "cd"(relative path names) and "pwd" Linux analogues) 
+3) Ability to choose a file for receiving (like command “get”).
+4) Ability to set a directory for receiving on local machine (absolute path names) and save file.
+5) Server can serves multiple number of clients at the same time
+5) Compiled for Windows and Linux.
